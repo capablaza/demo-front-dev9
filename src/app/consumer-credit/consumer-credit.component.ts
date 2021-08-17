@@ -42,7 +42,7 @@ export class ConsumerCreditComponent implements OnInit {
       var message = "";
       var action = "";
 
-      if (credit.isValidooo == true) {
+      if (credit.isValid == true) {
         action = "Aprobado";
         message = "Felicidades usted cumple los requisitos.";
       } else {
